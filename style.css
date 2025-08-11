@@ -1,0 +1,77 @@
+/* Base Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #2b2b40;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+  color: #00b4ff;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  background-color: #00b4ff;
+  color: #1e1e2f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #009be0;
+}
+
+/* UUID Display Box */
+.uuid-box {
+  background-color: #1e1e2f;
+  padding: 15px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 20px;
+  font-size: 1.1em;
+  line-height: 1.4;
+  border: 1px solid #444;
+}
+
+/* History Section */
+#history {
+  margin-top: 40px;
+}
+
+#uuidHistory {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#uuidHistory li {
+  background-color: #1e1e2f;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 0.95em;
+  border: 1px solid #444;
+}
